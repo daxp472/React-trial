@@ -1,0 +1,6 @@
+@echo off
+echo Building the project...
+npm run build
+
+echo Deploying to Netlify...
+netlify deploy --prod --dir=dist
